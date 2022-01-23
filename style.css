@@ -1,0 +1,280 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    left: 0px;
+    top: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+    padding:20px;
+    align-items: center;
+    display:flex;
+}
+
+#titulo {
+    padding-left:130px;
+
+}
+
+#nav {
+    padding-right:100px;
+}
+
+#nav a {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6E7275;
+    text-decoration:none;
+    margin-right:60px;
+}
+
+#cabecalho {
+    background: #EFF8FF;
+    height:640px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 150px;
+    padding-right:150px;
+}
+
+#cabecalho h1 {
+    color: #293145;
+    font-size: 48px;
+    line-height: 60px;
+    font-family: 'Sora', sans-serif;
+    width:400px;
+    font-weight: normal;
+}
+
+#cabecalho .imagem {
+    width:400px;
+}
+
+#cabecalho .botao a {
+    background: #0F9AFE;
+    color:white;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    border-radius: 50px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    text-decoration:none;
+    text-align:center;
+    padding: 15px 25px 15px 25px;
+    margin-top:30px;
+}
+
+main {
+
+    color: #293145;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+main h2 {
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+   color: #293145;
+   margin-bottom:20px;
+}
+
+main h3 {
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #293145;
+}
+
+main h4 {
+    
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #293145;
+    margin:10px;
+}
+
+main h5 {
+
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #293145;
+    margin-bottom:20px;
+}
+
+main h6 {
+
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom:20px;
+}
+
+main #funcionar {
+    margin-top:60px;
+    margin-bottom:60px;
+
+}
+
+main #func {
+    margin-top:40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align:center;
+    align-items:center;
+
+}
+main #planos {
+    margin-top:60px;
+    margin-bottom:60px;
+    text-align:center;
+    margin-left:100px;
+    margin-right:100px;
+}
+main #planos .botao a {
+    background: #0F9AFE;
+    color:white;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    border-radius: 50px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    text-decoration:none;
+    text-align:center;
+    display: inline-block;
+    width:200px;
+    padding: 10px 25px 10px 25px;
+    margin-top:50px;
+}
+main #planos .planos p {
+    margin-top:30px;
+}
+main #planos .planos {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align:center;
+    align-items:center;
+}
+main .box {
+    width:300px;
+}
+
+main #app {
+    background: #EFF8FF;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 100px 150px 100px 150px;
+}
+
+main #app .container p {
+    width:350px;
+margin-top:20px;
+    color: #6E7275;
+}
+main #app .container .apps{
+margin-top:20px;
+
+}
+
+main .plano1 {
+    background: #EFF8FF;
+    border-radius: 8px;
+    padding:20px;
+    width:300px;
+    margin-top:50px;
+    padding-bottom:50px;
+}
+
+main .plano2 {
+    background: #293145;
+    color: #DBDBDB;
+    border-radius: 8px;
+    padding:20px;
+    width:300px;
+    margin-top:50px;
+    padding-bottom:50px;
+}
+
+main #contato {
+    background: url(./images/contato.png) center;
+    height:400px;
+    background-size: cover;
+}
+main #contatotexto {
+    text-align:center;
+    height:200px;
+    padding:100px;
+    background:   rgba(41, 49, 69, 0.7);
+}
+main #contato p {
+    color:#DBDBDB;
+    font-size: 18px;
+    margin-top:30px;
+    display: inline-block;
+    width:500px;
+}
+
+main #email {
+    margin-top:50px;
+}
+
+main input {
+    background:none;
+    border-bottom: solid 1px white !important;
+    font-family: 'Inter', sans-serif;
+    font-size:18px;
+    color:white;
+    border:none;
+    width:200px;
+    padding:5px;
+}
+
+main #email .botao a {
+    display: inline-block;
+    background: #0F9AFE;
+    color:white;
+    border-radius: 50px;
+    font-style: normal;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-decoration:none;
+    text-align:center;
+    padding: 10px 25px 10px 25px;
+}
+
+button {
+    background:none;
+    border: none;
+}
